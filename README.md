@@ -8,5 +8,5 @@ Drum Kit made using HTML, CSS and JavaScript.
 [Link Here.](https://matteodevenuto.github.io/JS-Bootcamp-Projects/Drum-Kit/index.html)
 
 
-Simon Game made using HTML, CSS and jQuery
+Simon Game made using HTML, CSS and jQuery.  
 [Link Here.](https://matteodevenuto.github.io/JS-Bootcamp-Projects/Simoan-Game/index.html)
