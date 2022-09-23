@@ -9,4 +9,4 @@ Drum Kit made using HTML, CSS and JavaScript.
 
 
 Simon Game made using HTML, CSS, JavaScript and jQuery.  
-[Link Here.](https://matteodevenuto.github.io/JS-Bootcamp-Projects/Simoan-Game/index.html)
+[Link Here.](https://matteodevenuto.github.io/JS-Bootcamp-Projects/Simon-Game/index.html)
