@@ -7,9 +7,10 @@
    var started = false;
    var level = 0;
 
-   $(document).keydown(function (event) {
+   $('#start').click(function (event) {
       if (!started) {
          $('#level-title').text("Level " + level)
+         $('#start').hide();
          nextSequence();
          started = true;
       }
@@ -39,12 +40,13 @@
          console.log("wrong!");
          playSound("wrong");
 
+         $("#level-title").html("Game Over, You Reached Level " + (level - 1));
+
          $('body').addClass('game-over');
          setTimeout(function () {
             $('body').removeClass('game-over');
-         }, 200);
+         }, 500);
 
-         $("#level-title").text("Game Over, Press Any Key to Restart");
 
          startOver();
       }
@@ -70,6 +72,7 @@
       level = 0;
       gamePattern = [];
       started = false;
+      $('#start').show();
 
    }
 

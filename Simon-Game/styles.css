@@ -26,6 +26,19 @@ body {
   border-radius: 20%;
 }
 
+.start-btn {
+  margin: 25px;
+  display: inline-block;
+  height: 60px;
+  width: 250px;
+  border: 8px solid black;
+  border-radius: 20%;
+  background-color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+
+}
+
 .game-over {
   background-color: red;
   opacity: 0.8;
@@ -46,6 +59,7 @@ body {
 .yellow {
   background-color: yellow;
 }
+
 
 .pressed {
   box-shadow: 0 0 20px white;
